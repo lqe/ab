@@ -472,8 +472,8 @@ class Ab(object):
 
     def _V(self, opt='V'):
         desc = '''
-        This is ApacheBench, Version %s
-        Copyright 2015 Lqe, http://www.zeustech.net/ ''' % Ab.VERSION
+        This is ApacheBench, Version %s . Written in python2.7+
+        Copyright 2016 Lqe, http://www.zeustech.net/ ''' % Ab.VERSION
         print '\n'.join([line[8:] for line in desc.split('\n')])
 
     def _X(self, opt='X'):
